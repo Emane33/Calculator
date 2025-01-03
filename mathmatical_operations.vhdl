@@ -1,6 +1,6 @@
-each one is in seperated file
+--each one is in seperated file
 
-  1. Subtraction :
+  --1. Subtraction :
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -12,7 +12,8 @@ architecture Behavioral of subtractor is
 begin
 result <= std_logic_vector (unsigned(num1) - unsigned(num2));
 end Behavioral;
-2. Addition :
+  
+--2. Addition :
 -- The following codes for adder , subtractor, divide , multibly , do the arthmitec
 calculations using adders
 library ieee;
@@ -28,7 +29,8 @@ architecture Behavioral of adder is
   begin
 result <= std_logic_vector (unsigned(num1) + unsigned(num2));
 end Behavioral;
-3. Multiplication
+  
+--3. Multiplication
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -41,7 +43,7 @@ begin
 result <= std_logic_vector (unsigned(num1) * unsigned(num2));
 end Behavioral;
 
-4. Division
+--4. Division
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
